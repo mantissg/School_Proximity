@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_16f53ea87a826462e439d33cff57ab17 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_16f53ea87a826462e439d33cff57ab17" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_16f53ea87a826462e439d33cff57ab17 = L.map(
+                "map_16f53ea87a826462e439d33cff57ab17",
+                {
+                    center: [51.428298888, -3.3123734922888888],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_391f1a94593d591ba83daf093894a35c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var marker_ccb29e4b041b029482bc148a66063801 = L.marker(
+                [51.40166, -3.4111278],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_b49009aaf573c8f4237ae3c50f01cd63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ccb29e4b041b029482bc148a66063801.setIcon(icon_b49009aaf573c8f4237ae3c50f01cd63);
+        
+    
+        var popup_616223fd0cf146a17729a4bcc0ab0ba3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_643066ac92b3b418eeaa5ac65086db34 = $(`<div id="html_643066ac92b3b418eeaa5ac65086db34" style="width: 100.0%; height: 100.0%;">St Athan Primary School - Llantwit Major High School</div>`)[0];
+                popup_616223fd0cf146a17729a4bcc0ab0ba3.setContent(html_643066ac92b3b418eeaa5ac65086db34);
+            
+        
+
+        marker_ccb29e4b041b029482bc148a66063801.bindPopup(popup_616223fd0cf146a17729a4bcc0ab0ba3)
+        ;
+
+        
+    
+    
+            var marker_941d0ea52e52f45c752793d636e35e1d = L.marker(
+                [51.410199, -3.48422],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_1d2e131deff7ae37ab1fd2ae9ac359bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_941d0ea52e52f45c752793d636e35e1d.setIcon(icon_1d2e131deff7ae37ab1fd2ae9ac359bc);
+        
+    
+        var popup_dbab869f69bcdf28a79b7fe9a602895e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3604562f7a45783f0af50b433565f84f = $(`<div id="html_3604562f7a45783f0af50b433565f84f" style="width: 100.0%; height: 100.0%;">St Illtyd Primary School - Llantwit Major High School</div>`)[0];
+                popup_dbab869f69bcdf28a79b7fe9a602895e.setContent(html_3604562f7a45783f0af50b433565f84f);
+            
+        
+
+        marker_941d0ea52e52f45c752793d636e35e1d.bindPopup(popup_dbab869f69bcdf28a79b7fe9a602895e)
+        ;
+
+        
+    
+    
+            var marker_d386d7c547eae82819cfe8d186bcfc0d = L.marker(
+                [51.437651, -3.5496241],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_ab143cce02a4a6ecc50190338f38b618 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d386d7c547eae82819cfe8d186bcfc0d.setIcon(icon_ab143cce02a4a6ecc50190338f38b618);
+        
+    
+        var popup_729e8e4fbad7f603c2f7cce9edb77889 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b48cc44e8e131e5298589c8988f50944 = $(`<div id="html_b48cc44e8e131e5298589c8988f50944" style="width: 100.0%; height: 100.0%;">Wick & Marcross Church in Wales Primary - Llantwit Major High School</div>`)[0];
+                popup_729e8e4fbad7f603c2f7cce9edb77889.setContent(html_b48cc44e8e131e5298589c8988f50944);
+            
+        
+
+        marker_d386d7c547eae82819cfe8d186bcfc0d.bindPopup(popup_729e8e4fbad7f603c2f7cce9edb77889)
+        ;
+
+        
+    
+    
+            var marker_b855faf162c5ba8a6f2638150ef28acf = L.marker(
+                [51.460876, -3.5933656],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_6e6f984cb9e200be661962271753799d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_b855faf162c5ba8a6f2638150ef28acf.setIcon(icon_6e6f984cb9e200be661962271753799d);
+        
+    
+        var popup_64fb41a7c9eb8e0d42c5f64b9d90e217 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3675645b1faf837f7c41394fb25d253 = $(`<div id="html_b3675645b1faf837f7c41394fb25d253" style="width: 100.0%; height: 100.0%;">St Brides Major Church in Wales Primary - Llantwit Major High School</div>`)[0];
+                popup_64fb41a7c9eb8e0d42c5f64b9d90e217.setContent(html_b3675645b1faf837f7c41394fb25d253);
+            
+        
+
+        marker_b855faf162c5ba8a6f2638150ef28acf.bindPopup(popup_64fb41a7c9eb8e0d42c5f64b9d90e217)
+        ;
+
+        
+    
+    
+            var marker_fabc80dc051d8c24693e4b82900539db = L.marker(
+                [51.40432, -3.4762516],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_456ca0f0f77c6d8d2679fb6ea860648e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_fabc80dc051d8c24693e4b82900539db.setIcon(icon_456ca0f0f77c6d8d2679fb6ea860648e);
+        
+    
+        var popup_42bc1e1536974f6e52f3d18ee7a79629 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d1cc8689c044fe23d533e8e7077d4b3 = $(`<div id="html_0d1cc8689c044fe23d533e8e7077d4b3" style="width: 100.0%; height: 100.0%;">Ysgol Y Ddraig - Llantwit Major High School</div>`)[0];
+                popup_42bc1e1536974f6e52f3d18ee7a79629.setContent(html_0d1cc8689c044fe23d533e8e7077d4b3);
+            
+        
+
+        marker_fabc80dc051d8c24693e4b82900539db.bindPopup(popup_42bc1e1536974f6e52f3d18ee7a79629)
+        ;
+
+        
+    
+    
+            var marker_82f2654edf9b34fd647cb37b0ea11df9 = L.marker(
+                [51.407014, -3.4750875],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_1ebc12ded943804c74f2be3a68b6cc17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_82f2654edf9b34fd647cb37b0ea11df9.setIcon(icon_1ebc12ded943804c74f2be3a68b6cc17);
+        
+    
+        var popup_b9b38047967607cdaea5577a4049350d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f9fdcd2da3f0292de6af42c2098a52d = $(`<div id="html_5f9fdcd2da3f0292de6af42c2098a52d" style="width: 100.0%; height: 100.0%;">Ysgol Gymraeg Dewi Sant - Llantwit Major High School</div>`)[0];
+                popup_b9b38047967607cdaea5577a4049350d.setContent(html_5f9fdcd2da3f0292de6af42c2098a52d);
+            
+        
+
+        marker_82f2654edf9b34fd647cb37b0ea11df9.bindPopup(popup_b9b38047967607cdaea5577a4049350d)
+        ;
+
+        
+    
+    
+            var marker_54452bfe81e4230927f0de66fa5f56ab = L.marker(
+                [51.432333, -3.1968773],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_675f4fe227e93c90f6382d53cb51f850 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_54452bfe81e4230927f0de66fa5f56ab.setIcon(icon_675f4fe227e93c90f6382d53cb51f850);
+        
+    
+        var popup_9ccaceb74d4e303a3cd935e5520002d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6c905959d89909c78235a9766407f54 = $(`<div id="html_c6c905959d89909c78235a9766407f54" style="width: 100.0%; height: 100.0%;">St Joseph's RC Prim (Vale) - St Cyres Comprehensive School</div>`)[0];
+                popup_9ccaceb74d4e303a3cd935e5520002d3.setContent(html_c6c905959d89909c78235a9766407f54);
+            
+        
+
+        marker_54452bfe81e4230927f0de66fa5f56ab.bindPopup(popup_9ccaceb74d4e303a3cd935e5520002d3)
+        ;
+
+        
+    
+    
+            var marker_46c0ee1719e70535a965bf726c81ac15 = L.marker(
+                [51.412089, -3.26314],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_e7ac8f999def97d339ac6638ef2e524c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_46c0ee1719e70535a965bf726c81ac15.setIcon(icon_e7ac8f999def97d339ac6638ef2e524c);
+        
+    
+        var popup_3d97e71c97c1aa7eb6d662275577b99a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39dbee8f1754f43a227aa49ac502efc8 = $(`<div id="html_39dbee8f1754f43a227aa49ac502efc8" style="width: 100.0%; height: 100.0%;">Jenner Park Primary School - Pencoedtre High School</div>`)[0];
+                popup_3d97e71c97c1aa7eb6d662275577b99a.setContent(html_39dbee8f1754f43a227aa49ac502efc8);
+            
+        
+
+        marker_46c0ee1719e70535a965bf726c81ac15.bindPopup(popup_3d97e71c97c1aa7eb6d662275577b99a)
+        ;
+
+        
+    
+    
+            var marker_48c625003322d6e5bbe1f54485bbe5e8 = L.marker(
+                [51.416029, -3.2688571],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_bf891001aa88f9d23097ae44b522edac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_48c625003322d6e5bbe1f54485bbe5e8.setIcon(icon_bf891001aa88f9d23097ae44b522edac);
+        
+    
+        var popup_453e832d1c18569c06f3ace116d7116f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71baae2713d5f780ab6e10fc04f7fcfc = $(`<div id="html_71baae2713d5f780ab6e10fc04f7fcfc" style="width: 100.0%; height: 100.0%;">Oakfield Primary School - Pencoedtre High School</div>`)[0];
+                popup_453e832d1c18569c06f3ace116d7116f.setContent(html_71baae2713d5f780ab6e10fc04f7fcfc);
+            
+        
+
+        marker_48c625003322d6e5bbe1f54485bbe5e8.bindPopup(popup_453e832d1c18569c06f3ace116d7116f)
+        ;
+
+        
+    
+    
+            var marker_4b41964997bc7424c6f6c699efb518c0 = L.marker(
+                [51.460876, -3.3126081],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_f91e985b2d938d13004293d252b361d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4b41964997bc7424c6f6c699efb518c0.setIcon(icon_f91e985b2d938d13004293d252b361d3);
+        
+    
+        var popup_e3d0f1b9713e54e935742a9d22a28555 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fa98f0950e0f6fb6dff575f80d5ad51 = $(`<div id="html_9fa98f0950e0f6fb6dff575f80d5ad51" style="width: 100.0%; height: 100.0%;">St Nicholas C/W Primary School - Pencoedtre High School</div>`)[0];
+                popup_e3d0f1b9713e54e935742a9d22a28555.setContent(html_9fa98f0950e0f6fb6dff575f80d5ad51);
+            
+        
+
+        marker_4b41964997bc7424c6f6c699efb518c0.bindPopup(popup_e3d0f1b9713e54e935742a9d22a28555)
+        ;
+
+        
+    
+    
+            var marker_67ddbc0e927197240e7e752f99170b4b = L.marker(
+                [51.421927, -3.2755932],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_78ca59404731e2028685855d4733fc99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_67ddbc0e927197240e7e752f99170b4b.setIcon(icon_78ca59404731e2028685855d4733fc99);
+        
+    
+        var popup_982230942da74dbb9604add04de1f2d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c44505fd1b06ec522a82531ac570c14a = $(`<div id="html_c44505fd1b06ec522a82531ac570c14a" style="width: 100.0%; height: 100.0%;">Colcot Primary School - Pencoedtre High School</div>`)[0];
+                popup_982230942da74dbb9604add04de1f2d5.setContent(html_c44505fd1b06ec522a82531ac570c14a);
+            
+        
+
+        marker_67ddbc0e927197240e7e752f99170b4b.bindPopup(popup_982230942da74dbb9604add04de1f2d5)
+        ;
+
+        
+    
+    
+            var marker_ddb7b6921a87569c99c2b19737ae6254 = L.marker(
+                [51.481226, -3.3197449],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_fb557e28af651c7952cf552e82ae0d98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ddb7b6921a87569c99c2b19737ae6254.setIcon(icon_fb557e28af651c7952cf552e82ae0d98);
+        
+    
+        var popup_d6cd4cde08a56b28bd59f929604a9cfd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9b808c13e8cbb52e25c13ac105a3982 = $(`<div id="html_e9b808c13e8cbb52e25c13ac105a3982" style="width: 100.0%; height: 100.0%;">Peterston-Super-Ely C/W Primary School - Pencoedtre High School</div>`)[0];
+                popup_d6cd4cde08a56b28bd59f929604a9cfd.setContent(html_e9b808c13e8cbb52e25c13ac105a3982);
+            
+        
+
+        marker_ddb7b6921a87569c99c2b19737ae6254.bindPopup(popup_d6cd4cde08a56b28bd59f929604a9cfd)
+        ;
+
+        
+    
+    
+            var marker_69abbd0c5f95c360a98385655e13d2fa = L.marker(
+                [51.44906, -3.2644193],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_b422caad5546bd77a3d1710f5b73f516 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_69abbd0c5f95c360a98385655e13d2fa.setIcon(icon_b422caad5546bd77a3d1710f5b73f516);
+        
+    
+        var popup_56abdb2d25f54ff0840abe2dc5a29fcc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f41e27d86e76ffbfd25c06611014c20 = $(`<div id="html_2f41e27d86e76ffbfd25c06611014c20" style="width: 100.0%; height: 100.0%;">Gwenfo CW Primary School - Pencoedtre High School</div>`)[0];
+                popup_56abdb2d25f54ff0840abe2dc5a29fcc.setContent(html_2f41e27d86e76ffbfd25c06611014c20);
+            
+        
+
+        marker_69abbd0c5f95c360a98385655e13d2fa.bindPopup(popup_56abdb2d25f54ff0840abe2dc5a29fcc)
+        ;
+
+        
+    
+    
+            var marker_d7d32290e259f0d6d7dee1634217714d = L.marker(
+                [51.416029, -3.2688571],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_e4e8e18ed29891aebcbdd6d96ec2ceb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d7d32290e259f0d6d7dee1634217714d.setIcon(icon_e4e8e18ed29891aebcbdd6d96ec2ceb0);
+        
+    
+        var popup_3fedc62e6ace6c6de719f82e267ce45a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50e6396d3e1f6bbdf836feff5bf8da4c = $(`<div id="html_50e6396d3e1f6bbdf836feff5bf8da4c" style="width: 100.0%; height: 100.0%;">Ysgol Gymraeg Gwaun y Nant - Pencoedtre High School</div>`)[0];
+                popup_3fedc62e6ace6c6de719f82e267ce45a.setContent(html_50e6396d3e1f6bbdf836feff5bf8da4c);
+            
+        
+
+        marker_d7d32290e259f0d6d7dee1634217714d.bindPopup(popup_3fedc62e6ace6c6de719f82e267ce45a)
+        ;
+
+        
+    
+    
+            var marker_b67f62833f0ed3d211a3b4dea973465b = L.marker(
+                [51.43256, -3.2288769],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_79b5cb2f34937a4d3be94d57cfe9245f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b67f62833f0ed3d211a3b4dea973465b.setIcon(icon_79b5cb2f34937a4d3be94d57cfe9245f);
+        
+    
+        var popup_77e4818c0bdc0646110c154f12b21fec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1902d334499e70331dba0e939f692544 = $(`<div id="html_1902d334499e70331dba0e939f692544" style="width: 100.0%; height: 100.0%;">St Andrew's Major C/W Primary School - St Richard Gwyn RC High School</div>`)[0];
+                popup_77e4818c0bdc0646110c154f12b21fec.setContent(html_1902d334499e70331dba0e939f692544);
+            
+        
+
+        marker_b67f62833f0ed3d211a3b4dea973465b.bindPopup(popup_77e4818c0bdc0646110c154f12b21fec)
+        ;
+
+        
+    
+    
+            var marker_4273deb44c28de9a347b97afbd5cae73 = L.marker(
+                [51.41412, -3.2531876],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_4018599a25dd3e6dfad3712865f0c211 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4273deb44c28de9a347b97afbd5cae73.setIcon(icon_4018599a25dd3e6dfad3712865f0c211);
+        
+    
+        var popup_58a6cbee4b71d8e9301251c80a490ca6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28771c11f9da1a695340f298a71c1d2a = $(`<div id="html_28771c11f9da1a695340f298a71c1d2a" style="width: 100.0%; height: 100.0%;">Cadoxton Primary School - St Richard Gwyn RC High School</div>`)[0];
+                popup_58a6cbee4b71d8e9301251c80a490ca6.setContent(html_28771c11f9da1a695340f298a71c1d2a);
+            
+        
+
+        marker_4273deb44c28de9a347b97afbd5cae73.bindPopup(popup_58a6cbee4b71d8e9301251c80a490ca6)
+        ;
+
+        
+    
+    
+            var marker_d58c6d97f7322b9a0c9f6081bcd7657b = L.marker(
+                [51.404643, -3.2164686],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_4061ec419505ef639d53c03b2317f16d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d58c6d97f7322b9a0c9f6081bcd7657b.setIcon(icon_4061ec419505ef639d53c03b2317f16d);
+        
+    
+        var popup_438eae5f7c2c061cdcd1d71657c07350 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e13e87c2f50497908550c0ed770d0ef = $(`<div id="html_5e13e87c2f50497908550c0ed770d0ef" style="width: 100.0%; height: 100.0%;">Sully Primary School - St Richard Gwyn RC High School</div>`)[0];
+                popup_438eae5f7c2c061cdcd1d71657c07350.setContent(html_5e13e87c2f50497908550c0ed770d0ef);
+            
+        
+
+        marker_d58c6d97f7322b9a0c9f6081bcd7657b.bindPopup(popup_438eae5f7c2c061cdcd1d71657c07350)
+        ;
+
+        
+    
+    
+            var marker_e497d3ffe37646d7dd411c1ec3777aa1 = L.marker(
+                [51.417356, -3.2398156],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_59a542f4acfc5a10aa7229d4626bf16b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e497d3ffe37646d7dd411c1ec3777aa1.setIcon(icon_59a542f4acfc5a10aa7229d4626bf16b);
+        
+    
+        var popup_c6649b802d909d82440c6d3dcdf8c6ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb965ced4ee5fd9a906ec58cb95139da = $(`<div id="html_fb965ced4ee5fd9a906ec58cb95139da" style="width: 100.0%; height: 100.0%;">Palmerston Primary School - St Richard Gwyn RC High School</div>`)[0];
+                popup_c6649b802d909d82440c6d3dcdf8c6ff.setContent(html_fb965ced4ee5fd9a906ec58cb95139da);
+            
+        
+
+        marker_e497d3ffe37646d7dd411c1ec3777aa1.bindPopup(popup_c6649b802d909d82440c6d3dcdf8c6ff)
+        ;
+
+        
+    
+    
+            var marker_c9af6c743e813a359c1a5c849c80941a = L.marker(
+                [51.436866, -3.1817456],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_fc6190cfdd704441f177941e66248848 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c9af6c743e813a359c1a5c849c80941a.setIcon(icon_fc6190cfdd704441f177941e66248848);
+        
+    
+        var popup_2fc5e0b0fcdfe83c83da28f320e15f29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac97753aee508f9d95405c667affff3e = $(`<div id="html_ac97753aee508f9d95405c667affff3e" style="width: 100.0%; height: 100.0%;">Victoria Primary School - Stanwell Comprehensive School</div>`)[0];
+                popup_2fc5e0b0fcdfe83c83da28f320e15f29.setContent(html_ac97753aee508f9d95405c667affff3e);
+            
+        
+
+        marker_c9af6c743e813a359c1a5c849c80941a.bindPopup(popup_2fc5e0b0fcdfe83c83da28f320e15f29)
+        ;
+
+        
+    
+    
+            var marker_f9cf8e5ec30832ed5ef1000bff2abec3 = L.marker(
+                [51.429409, -3.1811073],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_a48cb73b4c6982f05cc398bea018eb94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f9cf8e5ec30832ed5ef1000bff2abec3.setIcon(icon_a48cb73b4c6982f05cc398bea018eb94);
+        
+    
+        var popup_2db577272afb6cdd89b2d57973c77060 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5404193749f432cd04f7f9f01526d25b = $(`<div id="html_5404193749f432cd04f7f9f01526d25b" style="width: 100.0%; height: 100.0%;">Evenlode Primary School - Stanwell Comprehensive School</div>`)[0];
+                popup_2db577272afb6cdd89b2d57973c77060.setContent(html_5404193749f432cd04f7f9f01526d25b);
+            
+        
+
+        marker_f9cf8e5ec30832ed5ef1000bff2abec3.bindPopup(popup_2db577272afb6cdd89b2d57973c77060)
+        ;
+
+        
+    
+    
+            var marker_98c1bb7e17a393a584f4ef132c93a884 = L.marker(
+                [51.441473, -3.1724545],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_2d3e66708727e957eec21dca203889e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_98c1bb7e17a393a584f4ef132c93a884.setIcon(icon_2d3e66708727e957eec21dca203889e9);
+        
+    
+        var popup_09e3936d21bf48b5b71c235830d42e22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95df52248e0472074be77f6ce8a8e351 = $(`<div id="html_95df52248e0472074be77f6ce8a8e351" style="width: 100.0%; height: 100.0%;">Albert Primary School - Stanwell Comprehensive School</div>`)[0];
+                popup_09e3936d21bf48b5b71c235830d42e22.setContent(html_95df52248e0472074be77f6ce8a8e351);
+            
+        
+
+        marker_98c1bb7e17a393a584f4ef132c93a884.bindPopup(popup_09e3936d21bf48b5b71c235830d42e22)
+        ;
+
+        
+    
+    
+            var marker_8a8f4917359cfd8018a6113ee3c59832 = L.marker(
+                [51.440207, -3.1839757],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_76fe575ed77e20231dc73b7e580e0e31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8a8f4917359cfd8018a6113ee3c59832.setIcon(icon_76fe575ed77e20231dc73b7e580e0e31);
+        
+    
+        var popup_fb836352dd099df651edafc28818ca0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c8a38d55f1baab1541042ce875a3f0a = $(`<div id="html_3c8a38d55f1baab1541042ce875a3f0a" style="width: 100.0%; height: 100.0%;">Fairfield Primary School - Stanwell Comprehensive School</div>`)[0];
+                popup_fb836352dd099df651edafc28818ca0b.setContent(html_3c8a38d55f1baab1541042ce875a3f0a);
+            
+        
+
+        marker_8a8f4917359cfd8018a6113ee3c59832.bindPopup(popup_fb836352dd099df651edafc28818ca0b)
+        ;
+
+        
+    
+    
+            var marker_97866fa1bb14ab62642cbbe8724de43a = L.marker(
+                [51.401055, -3.2871599],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_c52f4692d7c76f7e4d2c78621ea1ce73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_97866fa1bb14ab62642cbbe8724de43a.setIcon(icon_c52f4692d7c76f7e4d2c78621ea1ce73);
+        
+    
+        var popup_250867b6558b56f1c0cd0ad00b6b79db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dca5c4abc44898de004ba73ee99cbf86 = $(`<div id="html_dca5c4abc44898de004ba73ee99cbf86" style="width: 100.0%; height: 100.0%;">Romilly Community Primary - Ysgol Gymraeg Bro Morgannwg</div>`)[0];
+                popup_250867b6558b56f1c0cd0ad00b6b79db.setContent(html_dca5c4abc44898de004ba73ee99cbf86);
+            
+        
+
+        marker_97866fa1bb14ab62642cbbe8724de43a.bindPopup(popup_250867b6558b56f1c0cd0ad00b6b79db)
+        ;
+
+        
+    
+    
+            var marker_66f15849a76984f0b085fed4d1d1f1e1 = L.marker(
+                [51.402728, -3.2789548],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_b04f8e0a2319a4e608ac9d5f9b313086 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_66f15849a76984f0b085fed4d1d1f1e1.setIcon(icon_b04f8e0a2319a4e608ac9d5f9b313086);
+        
+    
+        var popup_487ec777b59cd5b6bbe97b018c6ee98e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2721478939c9314139450f1a5439b5a = $(`<div id="html_d2721478939c9314139450f1a5439b5a" style="width: 100.0%; height: 100.0%;">Ysgol Sant Baruc - Ysgol Gymraeg Bro Morgannwg</div>`)[0];
+                popup_487ec777b59cd5b6bbe97b018c6ee98e.setContent(html_d2721478939c9314139450f1a5439b5a);
+            
+        
+
+        marker_66f15849a76984f0b085fed4d1d1f1e1.bindPopup(popup_487ec777b59cd5b6bbe97b018c6ee98e)
+        ;
+
+        
+    
+    
+            var marker_13fceac970a588aa64dd0e55797d6e70 = L.marker(
+                [51.38868892, -3.341077906],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_b49568d666f08404db570795b0d56cac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_13fceac970a588aa64dd0e55797d6e70.setIcon(icon_b49568d666f08404db570795b0d56cac);
+        
+    
+        var popup_c9413e0bca0c93ff4c59503a47db56a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2df763eb88f841c377296a4952d1773d = $(`<div id="html_2df763eb88f841c377296a4952d1773d" style="width: 100.0%; height: 100.0%;">South Point Primary - Ysgol Gymraeg Bro Morgannwg</div>`)[0];
+                popup_c9413e0bca0c93ff4c59503a47db56a1.setContent(html_2df763eb88f841c377296a4952d1773d);
+            
+        
+
+        marker_13fceac970a588aa64dd0e55797d6e70.bindPopup(popup_c9413e0bca0c93ff4c59503a47db56a1)
+        ;
+
+        
+    
+    
+            var marker_21fbbcee208ef22e69c0d4228a6ef629 = L.marker(
+                [51.395535, -3.2722714],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_d623630ed0fb02405d1ad8549a0557aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_21fbbcee208ef22e69c0d4228a6ef629.setIcon(icon_d623630ed0fb02405d1ad8549a0557aa);
+        
+    
+        var popup_cf973341ee3984aed667d31e2b462cf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af562b78f04ed4d9f3958f48299d9fa4 = $(`<div id="html_af562b78f04ed4d9f3958f48299d9fa4" style="width: 100.0%; height: 100.0%;">Barry Island Primary School - Ysgol Gymraeg Bro Morgannwg</div>`)[0];
+                popup_cf973341ee3984aed667d31e2b462cf4.setContent(html_af562b78f04ed4d9f3958f48299d9fa4);
+            
+        
+
+        marker_21fbbcee208ef22e69c0d4228a6ef629.bindPopup(popup_cf973341ee3984aed667d31e2b462cf4)
+        ;
+
+        
+    
+    
+            var marker_5d6ecd7e81b3dfffea069a9d331c55d5 = L.marker(
+                [51.406582, -3.2743321],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_2b20853e4648668917bcea748de072ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5d6ecd7e81b3dfffea069a9d331c55d5.setIcon(icon_2b20853e4648668917bcea748de072ab);
+        
+    
+        var popup_501472c5b3581f4d9a682380f54405fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84498c7e47d0cb8fcc22cef5743bcfa4 = $(`<div id="html_84498c7e47d0cb8fcc22cef5743bcfa4" style="width: 100.0%; height: 100.0%;">Gladstone Primary School (Barry) - Ysgol Gymraeg Bro Morgannwg</div>`)[0];
+                popup_501472c5b3581f4d9a682380f54405fc.setContent(html_84498c7e47d0cb8fcc22cef5743bcfa4);
+            
+        
+
+        marker_5d6ecd7e81b3dfffea069a9d331c55d5.bindPopup(popup_501472c5b3581f4d9a682380f54405fc)
+        ;
+
+        
+    
+    
+            var marker_91c50d0d6a9abbe824af199976ef9091 = L.marker(
+                [51.410554, -3.2712361],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_fb58e2b308474866ee57d7f9a7815012 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_91c50d0d6a9abbe824af199976ef9091.setIcon(icon_fb58e2b308474866ee57d7f9a7815012);
+        
+    
+        var popup_8169a9848900f221f5221ff360c2b1ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ab7007d9b3cd8f55a15721eb440043b = $(`<div id="html_8ab7007d9b3cd8f55a15721eb440043b" style="width: 100.0%; height: 100.0%;">St Helen’s Catholic Primary School - Ysgol Gymraeg Bro Morgannwg</div>`)[0];
+                popup_8169a9848900f221f5221ff360c2b1ec.setContent(html_8ab7007d9b3cd8f55a15721eb440043b);
+            
+        
+
+        marker_91c50d0d6a9abbe824af199976ef9091.bindPopup(popup_8169a9848900f221f5221ff360c2b1ec)
+        ;
+
+        
+    
+    
+            var marker_e0b1a75ce5e70acdd2db6df2244c57b9 = L.marker(
+                [51.402728, -3.2789548],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_f5ca23a4f060b1617b94be4b976517cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e0b1a75ce5e70acdd2db6df2244c57b9.setIcon(icon_f5ca23a4f060b1617b94be4b976517cb);
+        
+    
+        var popup_e5315ba208bce2f6d9f0b43f5515d7d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf464b3eaddcc5b9f086003685532e9c = $(`<div id="html_bf464b3eaddcc5b9f086003685532e9c" style="width: 100.0%; height: 100.0%;">High Street Primary School - Ysgol Gymraeg Bro Morgannwg</div>`)[0];
+                popup_e5315ba208bce2f6d9f0b43f5515d7d2.setContent(html_bf464b3eaddcc5b9f086003685532e9c);
+            
+        
+
+        marker_e0b1a75ce5e70acdd2db6df2244c57b9.bindPopup(popup_e5315ba208bce2f6d9f0b43f5515d7d2)
+        ;
+
+        
+    
+    
+            var marker_926d3f6fd1a6cdd751dc79c06ca3cd4d = L.marker(
+                [51.407258, -3.2897496],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_fdca12b118e5d533d453b856450bddb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_926d3f6fd1a6cdd751dc79c06ca3cd4d.setIcon(icon_fdca12b118e5d533d453b856450bddb8);
+        
+    
+        var popup_7b030581893664e6721e51334d97708b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_548a8d7b67b9db8c976981cb1abbaae7 = $(`<div id="html_548a8d7b67b9db8c976981cb1abbaae7" style="width: 100.0%; height: 100.0%;">All Saints C.I.W Primary School  - Ysgol Gymraeg Bro Morgannwg</div>`)[0];
+                popup_7b030581893664e6721e51334d97708b.setContent(html_548a8d7b67b9db8c976981cb1abbaae7);
+            
+        
+
+        marker_926d3f6fd1a6cdd751dc79c06ca3cd4d.bindPopup(popup_7b030581893664e6721e51334d97708b)
+        ;
+
+        
+    
+    
+            var marker_70c4149e3986cc964f8f0fb7345dd227 = L.marker(
+                [51.388499, -3.3513375],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_bb1c6f32e39f2f02895c6a7e2d6a307f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_70c4149e3986cc964f8f0fb7345dd227.setIcon(icon_bb1c6f32e39f2f02895c6a7e2d6a307f);
+        
+    
+        var popup_d876dbbeffaa4d9ba7771c50dac21692 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c9ddbca50098afb20598e95e2422012 = $(`<div id="html_2c9ddbca50098afb20598e95e2422012" style="width: 100.0%; height: 100.0%;">Rhws Primary School - Ysgol Gymraeg Bro Morgannwg</div>`)[0];
+                popup_d876dbbeffaa4d9ba7771c50dac21692.setContent(html_2c9ddbca50098afb20598e95e2422012);
+            
+        
+
+        marker_70c4149e3986cc964f8f0fb7345dd227.bindPopup(popup_d876dbbeffaa4d9ba7771c50dac21692)
+        ;
+
+        
+    
+    
+            var marker_6f8e41dafc28ecdf7ef9ff8ff83841dd = L.marker(
+                [51.405997, -3.2784853],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_771d65b3ee46c111aee78d9b6ec48184 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6f8e41dafc28ecdf7ef9ff8ff83841dd.setIcon(icon_771d65b3ee46c111aee78d9b6ec48184);
+        
+    
+        var popup_c853b9f7bc877241a6f5db5997d43f12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed84de14cbb83872087bffe02350b5a7 = $(`<div id="html_ed84de14cbb83872087bffe02350b5a7" style="width: 100.0%; height: 100.0%;">Ysgol Sant Curig - Ysgol Gymraeg Bro Morgannwg</div>`)[0];
+                popup_c853b9f7bc877241a6f5db5997d43f12.setContent(html_ed84de14cbb83872087bffe02350b5a7);
+            
+        
+
+        marker_6f8e41dafc28ecdf7ef9ff8ff83841dd.bindPopup(popup_c853b9f7bc877241a6f5db5997d43f12)
+        ;
+
+        
+    
+    
+            var marker_c2235cef951fa1da49df7c685d7ec0dc = L.marker(
+                [51.407117, -3.2622554],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_dedaaf8690b21739b5375c795fca204d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c2235cef951fa1da49df7c685d7ec0dc.setIcon(icon_dedaaf8690b21739b5375c795fca204d);
+        
+    
+        var popup_dd020fd2b2da3e79d12d14d8bea681b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bd42c593d42cc2e68a1f5c067dd1bfe = $(`<div id="html_2bd42c593d42cc2e68a1f5c067dd1bfe" style="width: 100.0%; height: 100.0%;">Holton Primary School - Ysgol Gymraeg Bro Morgannwg</div>`)[0];
+                popup_dd020fd2b2da3e79d12d14d8bea681b6.setContent(html_2bd42c593d42cc2e68a1f5c067dd1bfe);
+            
+        
+
+        marker_c2235cef951fa1da49df7c685d7ec0dc.bindPopup(popup_dd020fd2b2da3e79d12d14d8bea681b6)
+        ;
+
+        
+    
+    
+            var marker_c4ad31e718aa4adcc9dc08c84eab2eae = L.marker(
+                [51.40859, -3.2640788],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_4c8535fb1777fe58cd1cfef020ad3dd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c4ad31e718aa4adcc9dc08c84eab2eae.setIcon(icon_4c8535fb1777fe58cd1cfef020ad3dd3);
+        
+    
+        var popup_da3a6b7abc26f7c5b52b6cdeef8a4413 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0352f13954e93cd342ba12247a4178bd = $(`<div id="html_0352f13954e93cd342ba12247a4178bd" style="width: 100.0%; height: 100.0%;">St Helen’s Catholic Primary School - Ysgol Gymraeg Bro Morgannwg</div>`)[0];
+                popup_da3a6b7abc26f7c5b52b6cdeef8a4413.setContent(html_0352f13954e93cd342ba12247a4178bd);
+            
+        
+
+        marker_c4ad31e718aa4adcc9dc08c84eab2eae.bindPopup(popup_da3a6b7abc26f7c5b52b6cdeef8a4413)
+        ;
+
+        
+    
+    
+            var marker_59f9e71dd213366410673cd8aef5fe95 = L.marker(
+                [51.4702, -3.5258617],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_bc2eb77fb9727987649ba3daa2e8be0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_59f9e71dd213366410673cd8aef5fe95.setIcon(icon_bc2eb77fb9727987649ba3daa2e8be0a);
+        
+    
+        var popup_99eec7ae08eea5fe173ddfb51702afb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9b8239ca280d0129a4d956b81350d6e = $(`<div id="html_e9b8239ca280d0129a4d956b81350d6e" style="width: 100.0%; height: 100.0%;">St David's C/W Primary School (Vale) - Cowbridge School </div>`)[0];
+                popup_99eec7ae08eea5fe173ddfb51702afb8.setContent(html_e9b8239ca280d0129a4d956b81350d6e);
+            
+        
+
+        marker_59f9e71dd213366410673cd8aef5fe95.bindPopup(popup_99eec7ae08eea5fe173ddfb51702afb8)
+        ;
+
+        
+    
+    
+            var marker_200b9d9d86d9ef968aa0818844856109 = L.marker(
+                [51.502712, -3.4400957],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_9122e9743d11ac107b50c2ed2ab0ab07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_200b9d9d86d9ef968aa0818844856109.setIcon(icon_9122e9743d11ac107b50c2ed2ab0ab07);
+        
+    
+        var popup_34b3e1613585ba44760d433e69d9faa3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e627b62eaa706576aafd1e7595d146d = $(`<div id="html_3e627b62eaa706576aafd1e7595d146d" style="width: 100.0%; height: 100.0%;">Llansannor C/W (Aided) Primary School - Cowbridge School </div>`)[0];
+                popup_34b3e1613585ba44760d433e69d9faa3.setContent(html_3e627b62eaa706576aafd1e7595d146d);
+            
+        
+
+        marker_200b9d9d86d9ef968aa0818844856109.bindPopup(popup_34b3e1613585ba44760d433e69d9faa3)
+        ;
+
+        
+    
+    
+            var marker_7d51488678a0daff350fbaecd8f961b2 = L.marker(
+                [51.458928, -3.4453382],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_80c63e756fc87d9ffb2d775d367c9f1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7d51488678a0daff350fbaecd8f961b2.setIcon(icon_80c63e756fc87d9ffb2d775d367c9f1f);
+        
+    
+        var popup_644afcbf89ebf7edc0bcd14cc27ddf27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b034ebca21c4b3ac1bf928b3156ec12 = $(`<div id="html_4b034ebca21c4b3ac1bf928b3156ec12" style="width: 100.0%; height: 100.0%;">Ysgol Iolo Morganwg - Cowbridge School </div>`)[0];
+                popup_644afcbf89ebf7edc0bcd14cc27ddf27.setContent(html_4b034ebca21c4b3ac1bf928b3156ec12);
+            
+        
+
+        marker_7d51488678a0daff350fbaecd8f961b2.bindPopup(popup_644afcbf89ebf7edc0bcd14cc27ddf27)
+        ;
+
+        
+    
+    
+            var marker_d53c2fd9a624365cece632bd96dbc667 = L.marker(
+                [51.459532, -3.4474013],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_7233af6dad0b406076a2056a9ea59c31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d53c2fd9a624365cece632bd96dbc667.setIcon(icon_7233af6dad0b406076a2056a9ea59c31);
+        
+    
+        var popup_94701b82a63bf7876f9fcd3191b038f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7553822cc9c9aee0d2b2b794c589e84 = $(`<div id="html_c7553822cc9c9aee0d2b2b794c589e84" style="width: 100.0%; height: 100.0%;">Y Bont Faen Primary School - Cowbridge School </div>`)[0];
+                popup_94701b82a63bf7876f9fcd3191b038f2.setContent(html_c7553822cc9c9aee0d2b2b794c589e84);
+            
+        
+
+        marker_d53c2fd9a624365cece632bd96dbc667.bindPopup(popup_94701b82a63bf7876f9fcd3191b038f2)
+        ;
+
+        
+    
+    
+            var marker_8d0a225c29ffe6ed5d09b6e4eabb37f0 = L.marker(
+                [51.486498, -3.4855733],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_e08e26f7906c6078613f895f673bec76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8d0a225c29ffe6ed5d09b6e4eabb37f0.setIcon(icon_e08e26f7906c6078613f895f673bec76);
+        
+    
+        var popup_13a4444f57da76b0316868ed2a442254 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c36331353518e48e2443bcec9d1840e = $(`<div id="html_4c36331353518e48e2443bcec9d1840e" style="width: 100.0%; height: 100.0%;">Llangan Primary School - Cowbridge School </div>`)[0];
+                popup_13a4444f57da76b0316868ed2a442254.setContent(html_4c36331353518e48e2443bcec9d1840e);
+            
+        
+
+        marker_8d0a225c29ffe6ed5d09b6e4eabb37f0.bindPopup(popup_13a4444f57da76b0316868ed2a442254)
+        ;
+
+        
+    
+    
+            var marker_fb458257bd0b61ddca942dfe1a03216d = L.marker(
+                [51.438299, -3.4417661],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_98b1cb57b1f64938e65001bd41c03187 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_fb458257bd0b61ddca942dfe1a03216d.setIcon(icon_98b1cb57b1f64938e65001bd41c03187);
+        
+    
+        var popup_86f8b7266c7b8859addf6acf27431e92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0997780d0a418587581c46fa633e0abf = $(`<div id="html_0997780d0a418587581c46fa633e0abf" style="width: 100.0%; height: 100.0%;">Llanfair Primary School - Cowbridge School </div>`)[0];
+                popup_86f8b7266c7b8859addf6acf27431e92.setContent(html_0997780d0a418587581c46fa633e0abf);
+            
+        
+
+        marker_fb458257bd0b61ddca942dfe1a03216d.bindPopup(popup_86f8b7266c7b8859addf6acf27431e92)
+        ;
+
+        
+    
+    
+            var marker_062a8bfe6ffb2c7563eade2c5d785ae8 = L.marker(
+                [51.482097, -3.356076],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_f65e9af2b540a248f04868595bdd9168 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_062a8bfe6ffb2c7563eade2c5d785ae8.setIcon(icon_f65e9af2b540a248f04868595bdd9168);
+        
+    
+        var popup_c65a240c6c182a10631b59a0f2f8efa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adbc68f96425745cff589913144ffb40 = $(`<div id="html_adbc68f96425745cff589913144ffb40" style="width: 100.0%; height: 100.0%;">Pendoylan C/W (Aided) Primary School - Cowbridge School </div>`)[0];
+                popup_c65a240c6c182a10631b59a0f2f8efa0.setContent(html_adbc68f96425745cff589913144ffb40);
+            
+        
+
+        marker_062a8bfe6ffb2c7563eade2c5d785ae8.bindPopup(popup_c65a240c6c182a10631b59a0f2f8efa0)
+        ;
+
+        
+    
+    
+            var marker_0568245fce7a1e88999207893e64f94b = L.marker(
+                [51.441135, -3.1961722],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_81c9392e3d3c6d274b5e33b4e15de7c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0568245fce7a1e88999207893e64f94b.setIcon(icon_81c9392e3d3c6d274b5e33b4e15de7c5);
+        
+    
+        var popup_9436cc6b0ae7453925e874c47f547e12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15984130733caaa7eae5a49218fa8766 = $(`<div id="html_15984130733caaa7eae5a49218fa8766" style="width: 100.0%; height: 100.0%;">Ysgol Pen Y Garth - Ysgol Y Deri</div>`)[0];
+                popup_9436cc6b0ae7453925e874c47f547e12.setContent(html_15984130733caaa7eae5a49218fa8766);
+            
+        
+
+        marker_0568245fce7a1e88999207893e64f94b.bindPopup(popup_9436cc6b0ae7453925e874c47f547e12)
+        ;
+
+        
+    
+    
+            var marker_4c081e4710d81794329c9b9275c304c4 = L.marker(
+                [51.436285, -3.212245],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_282d5cceec4b248751c55a2df471ef37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4c081e4710d81794329c9b9275c304c4.setIcon(icon_282d5cceec4b248751c55a2df471ef37);
+        
+    
+        var popup_0dc5a86d89fbc7a1c58b51abd376d134 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_278a37919a72df6defc143b5f3fa83d4 = $(`<div id="html_278a37919a72df6defc143b5f3fa83d4" style="width: 100.0%; height: 100.0%;">Dinas Powys Primary School - Ysgol Y Deri</div>`)[0];
+                popup_0dc5a86d89fbc7a1c58b51abd376d134.setContent(html_278a37919a72df6defc143b5f3fa83d4);
+            
+        
+
+        marker_4c081e4710d81794329c9b9275c304c4.bindPopup(popup_0dc5a86d89fbc7a1c58b51abd376d134)
+        ;
+
+        
+    
+    
+            var marker_f2eabe76e844ba34dfddc5a90e89c5d0 = L.marker(
+                [51.450114, -3.1973999],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_75b12287c696b5a70de8f1604d4c340d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f2eabe76e844ba34dfddc5a90e89c5d0.setIcon(icon_75b12287c696b5a70de8f1604d4c340d);
+        
+    
+        var popup_ff43838c57887d448087b5d7124458d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25f717cfecb76d8ccde656bfae030699 = $(`<div id="html_25f717cfecb76d8ccde656bfae030699" style="width: 100.0%; height: 100.0%;">Llandough Primary School - Ysgol Y Deri</div>`)[0];
+                popup_ff43838c57887d448087b5d7124458d7.setContent(html_25f717cfecb76d8ccde656bfae030699);
+            
+        
+
+        marker_f2eabe76e844ba34dfddc5a90e89c5d0.bindPopup(popup_ff43838c57887d448087b5d7124458d7)
+        ;
+
+        
+    
+    
+            var marker_a83b125d1a82033c14002a08fa3db511 = L.marker(
+                [51.442775, -3.1887041],
+                {}
+            ).addTo(map_16f53ea87a826462e439d33cff57ab17);
+        
+    
+            var icon_917f727faaf3239ef8070bb24817b680 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a83b125d1a82033c14002a08fa3db511.setIcon(icon_917f727faaf3239ef8070bb24817b680);
+        
+    
+        var popup_ad4eea04c0f59e490d891ff85f15f0a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37b2c6ad982542bb6301fbbe662c0b1d = $(`<div id="html_37b2c6ad982542bb6301fbbe662c0b1d" style="width: 100.0%; height: 100.0%;">Cogan Primary School - Ysgol Y Deri</div>`)[0];
+                popup_ad4eea04c0f59e490d891ff85f15f0a9.setContent(html_37b2c6ad982542bb6301fbbe662c0b1d);
+            
+        
+
+        marker_a83b125d1a82033c14002a08fa3db511.bindPopup(popup_ad4eea04c0f59e490d891ff85f15f0a9)
+        ;
+
+        
+    
+</script>
+</html>
